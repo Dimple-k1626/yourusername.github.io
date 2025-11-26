@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My GitHub Pages Website</title>
+
+    <!-- CSS -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            text-align: center;
+        }
+
+        header {
+            background-color: #24292e;
+            color: white;
+            padding: 30px 10px;
+        }
+
+        main {
+            padding: 40px 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #2ea44f;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #22863a;
+        }
+
+        footer {
+            background-color: #ddd;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>Deployed using GitHub Pages 🚀</p>
+    </header>
+
+    <main>
+        <h2>About This Site</h2>
+        <p>
+            This is a simple static website built using HTML, CSS, and JavaScript
+            and hosted for free on GitHub Pages.
+        </p>
+
+        <button onclick="showMessage()">Click Me</button>
+        <p id="message"></p>
+    </main>
+
+    <footer>
+        <p>© 2025 My GitHub Pages Site</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerText =
+                "🎉 Your website is successfully running on GitHub Pages!";
+        }
+    </script>
+
+</body>
+</html>
